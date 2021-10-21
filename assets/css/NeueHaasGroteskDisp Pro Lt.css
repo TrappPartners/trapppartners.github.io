@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'NeueHaasGroteskDisp Pro Lt';
+	src: url(../../assets/fonts/NHaasGroteskDSPro-45Lt.woff2) format('woff2'),
+	url(../../assets/fonts/NHaasGroteskDSPro-45Lt.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeueHaasGroteskDisp Pro Lt';
+	src: url(../../assets/fonts/NHaasGroteskDSPro-46LtIt.woff2) format('woff2'),
+	url(../../assets/fonts/NHaasGroteskDSPro-46LtIt.woff) format('woff');
+	font-weight: 300;
+	font-style: italic;
+}

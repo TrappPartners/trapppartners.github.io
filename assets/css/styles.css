@@ -1,0 +1,91 @@
+.preHeading_Black_Left {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.sectionHeading_Black {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: none;
+  border-top: 1px solid #000 !important;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #000;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #2e01a4;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(../../assets/img//plus-grey.png);
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../../assets/img//plus-grey.png);
+  transform: rotate(225deg);
+}
+
+body {
+  margin: 0;
+  font-family: 'NeueHaasGroteskDisp Pro';
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.header-dark-up {
+  background: url(../../assets/img/UPSTACK_grphk_bckgrnd_drk_lg.png);
+  padding-bottom: 80px;
+  background-size: cover;
+}
+
+.li {
+  margin-bottom: 20px !important;
+}
+
